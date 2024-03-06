@@ -53,6 +53,7 @@ class Dev(Configuration):
         'blog',
         'crispy_forms',
         'crispy_bootstrap5',
+        'rest_framework',
     ]
 
     MIDDLEWARE = [
