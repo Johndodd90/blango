@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 import blog.views
+from rest_framework.authtoken import views
 
 urlpatterns = [
     path("", blog.views.index),
